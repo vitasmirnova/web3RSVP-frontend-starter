@@ -16,7 +16,7 @@ import {
   LinkIcon,
 } from "@heroicons/react/outline";
 
-function Event({ event }) {
+function Event( event ) {
   console.log("EVENT:", event)
   const { data: account } = useAccount();
 
